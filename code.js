@@ -33,7 +33,7 @@ submitBtn.addEventListener("click", () => {
     msgContainer.classList.remove("hide");
   }
   if(guessCount == maxGuess){
-    msg.innerText = `The answer was ${randomNumber}`;
+    msg.innerText = guess === randomNumber ? `🎉 YOU WON!` : `The Answer was ${randomNumber}`;
     inputBox.disabled = true;
     submitBtn.disabled = true;
   }
