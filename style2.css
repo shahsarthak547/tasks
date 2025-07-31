@@ -28,7 +28,7 @@ body{
     gap: 1.5vmin;
 }
 .box{
-    height: 16vmin;
+    height: 14vmin;
     width: 16vmin;
     border-radius: 1rem;
     font-size: 8vmin;
@@ -69,7 +69,7 @@ body{
     box-shadow: 0 8px 16px black;
 }
 #backspace {
-    height: 16vmin;
+    height: 14vmin;
     width: 16vmin;
     border-radius: 1rem;
     font-size: 8vmin;
